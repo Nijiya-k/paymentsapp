@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-h=3(5&*_mt3zyault(@-loi9lhe!3gh+rf1p##l!a8iw$h5utt'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -141,6 +141,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # STRIPE PAYMENT
-STRIPE_PUBLIC_KEY = 'pk_test_51LnJEnSFNknQlhMYllRdozSsyOL3CtLxFbAxpJwGWOoOV6gsu7aJAOatja7T2xGrBJHDkCelafhFUs3M2qHYh95H00IRoCg5fQ'
-STRIPE_SECRET_KEY = 'sk_test_51LnJEnSFNknQlhMYNhT5jVl0HxOR92wHZHovCzEwRQrZL6klq94Hjd95dL8ocNKqUe1tXxfUsvsxYbD2ClImvOu500H95Q0YA1'
+STRIPE_PUBLIC_KEY = ''
+STRIPE_SECRET_KEY = ''
 STRIPE_PUBLISHABLE_KEY = ''
